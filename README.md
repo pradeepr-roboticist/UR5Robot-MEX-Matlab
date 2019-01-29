@@ -27,7 +27,7 @@ https://github.com/ros-industrial/universal_robot/tree/kinetic-devel/ur_kinemati
 ## Usage
 1) Download or clone this repo into your folder.
 2) Run the script "run_me.m".
-3) Star this repo if you liked it.
+3) Star this repo if you like it.
 
 ## Some tips
 1) You need to have set a MEX compiler for this to work
