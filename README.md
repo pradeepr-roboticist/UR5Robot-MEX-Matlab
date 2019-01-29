@@ -12,6 +12,7 @@ I hope this class is of use to anyone wanting to:
 1) Visualize the pose of an UR5 robot.
 2) Visualize and manipulate STL objects efficiently from within MATLAB.
 
+## Credits
 I am grateful to the authors of the following packages:
 
 1) Example MATLAB class wrapper for a C++ class by Oliver Woodford
