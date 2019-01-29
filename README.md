@@ -1,7 +1,10 @@
-# UR5Display
+# UR5 Kinematics and Display
 ![alt text](https://raw.githubusercontent.com/pradeepunique1989/UR5Display/master/docs/image.png)
 
-This repository contains a MATLAB class to display an UR5 robot.
+This repository contains two MATLAB classes.
+1) UR5Display : A class to visualize a robot model using the corresponding STL files.
+2) UR5Kinematics : A wrapper class to compute forward and inverse kinematics solutions via a MEX interface to C++ code.
+
 There are many ways to visualize a robot model in MATLAB.
 This class does it efficiently by utilizing "hgtransform" objects provided by MATLAB.
 
