@@ -4,6 +4,7 @@
 % Last Modified Date: 29.01.2019
 % Last Modified By  : Pradeep Rajendran <pradeepunique1989@gmail.com>
 
+addpath(genpath(get_this_dir()));
 %% COMPILE MEX CODE
 cd ur_kinematics;
 run compile_ur5kinematics.m
