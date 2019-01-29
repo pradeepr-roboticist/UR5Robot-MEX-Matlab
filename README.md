@@ -23,3 +23,6 @@ https://www.mathworks.com/matlabcentral/fileexchange/51200-stltools?focused=3878
 3) universal_robot package by Kelsey Hawkins (kphawkins@gatech.edu)
 https://github.com/ros-industrial/universal_robot/tree/kinetic-devel/ur_kinematics
 
+## Usage
+1) Download or clone this repository into your folder.
+2) Run the script "run_me.m"
