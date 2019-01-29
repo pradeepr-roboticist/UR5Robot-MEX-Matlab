@@ -184,8 +184,7 @@ classdef UR5Display < handle
             if nargin > 0
                 obj.ws_figure = varargin{1};
                 set(obj.ws_figure, 'KeyPressFcn', @(src, event) obj.key_press_cb(src, event));
-%                 obj.key_listener = addlistener(obj.ws_figure, 'KeyPressFcn', @(src, event) obj.key_press_cb(src, event));
-%                 obj.delete_listener = addlistener(obj.ws_figure, 'FigureDelete', @(src, event) obj.delete(src, event));
+                set(obj.ws_figure, 'FigureDelete', @(src, event) obj.delete(src, event));
             end
             
             

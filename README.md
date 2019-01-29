@@ -1,12 +1,12 @@
 # UR5 Kinematics and Display
-![alt text](https://raw.githubusercontent.com/pradeepunique1989/UR5Display/master/docs/image.png)
+![image of figure window](https://raw.githubusercontent.com/pradeepunique1989/UR5Display/master/docs/image.png)
 
 This repository contains two MATLAB classes.
 1) UR5Display : A class to visualize a robot model using the corresponding STL files.
 2) UR5Kinematics : A wrapper class to compute forward and inverse kinematics solutions via a MEX interface to C++ code.
 
 There are many ways to visualize a robot model in MATLAB.
-This class does it efficiently by utilizing "hgtransform" objects provided by MATLAB.
+This class does it efficiently by utilizing graphics objects provided by MATLAB.
 
 I hope this class is of use to anyone wanting to:
 1) Visualize the pose of an UR5 robot.
@@ -27,3 +27,18 @@ https://github.com/ros-industrial/universal_robot/tree/kinetic-devel/ur_kinemati
 ## Usage
 1) Download or clone this repository into your folder.
 2) Run the script "run_me.m"
+
+## Some tips
+1) You need to have set a MEX compiler for this to work
+2) This was tested in MATLAB 2018b. But, it should work for any recent version of MATLAB.
+
+## Author
+
+**Pradeep Rajendran**
+
+* [github/pradeepunique1989](https://github.com/pradeepunique1989)
+
+## License
+
+Copyright © 2019 [Pradeep Rajendran](https://github.com/pradeepunique1989)
+Released under the [GNU General Public License](https://github.com/pradeepunique1989/UR5Robot/blob/master/LICENSE).

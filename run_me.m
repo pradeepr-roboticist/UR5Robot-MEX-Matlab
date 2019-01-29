@@ -1,10 +1,15 @@
 % File              : run_me.m
 % Author            : Pradeep Rajendran <pradeepunique1989@gmail.com>
 % Date              : 06.10.2018
-% Last Modified Date: 13.12.2018
+% Last Modified Date: 29.01.2019
 % Last Modified By  : Pradeep Rajendran <pradeepunique1989@gmail.com>
 
-%% BOILERPLATE CODE
+%% COMPILE MEX CODE
+cd ur_kinematics;
+run compile_ur5kinematics.m
+cd ..
+
+%% BOILERPLATE
 f = figure();
 axis equal;
 grid on;
@@ -28,7 +33,7 @@ fprintf("u for increasing the granularity of joint angle change\n");
 fprintf("j for decreasing the granularity of joint angle change\n");
 fprintf("\n***********************************************\n");
  
-%% OTHER USES
+%% FORWARD AND INVERSE KINEMATICS
 
 % Forward kinematics
 ur5_kin = UR5Kinematics();
@@ -38,6 +43,6 @@ result.transform_matrices
 % Inverse kinematics
 T_ee = eye(4);
 T_ee(1:3, 4) = [0.6; 0.1; 0.6];
-[ik_sols] = ur5_kin.inverse_kinematics(T_ee, 0);
+[ik_sols] = ur5_kin.inverse_kinematics(T_ee, 0); % computes the IK solutions to reach end-effector configuration T_ee
 
-ur5_disp.draw_configuration(ik_sols(2, :)); % visualize a solution
+ur5_disp.draw_configuration(ik_sols(2, :)); % visualize one of the solutions
