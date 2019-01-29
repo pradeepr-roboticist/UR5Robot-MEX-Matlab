@@ -1,4 +1,6 @@
 # UR5Display
+![alt text](https://raw.githubusercontent.com/pradeepunique1989/UR5Display/master/docs/image.png)
+
 This repository contains a MATLAB class to display an UR5 robot.
 There are many ways to visualize a robot model in MATLAB.
 This class does it efficiently by utilizing "hgtransform" objects provided by MATLAB.
