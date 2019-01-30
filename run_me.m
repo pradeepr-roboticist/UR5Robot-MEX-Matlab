@@ -17,7 +17,7 @@ grid on;
 grid minor;
 camlight;
 material metal;
-axis([-1 1 -1 1 0 1]*1);
+axis([-0.6 0.6 -0.6 0.6 0 1]*1);
 
 ur5_disp = UR5Display(f);
 

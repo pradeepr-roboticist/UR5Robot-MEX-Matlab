@@ -7,6 +7,7 @@ This repository contains two MATLAB classes.
 
 There are many ways to visualize a robot model in MATLAB.
 This class does it efficiently by utilizing graphics objects provided by MATLAB.
+The key advantage is that the robot model can be efficiently articulated by either the callback function or a call to draw_configuration.
 
 I hope this class is of use to anyone wanting to:
 1) Visualize the pose of an UR5 robot.
