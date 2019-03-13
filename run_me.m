@@ -43,7 +43,8 @@ result.transform_matrices
 
 % Inverse kinematics
 T_ee = eye(4);
-T_ee(1:3, 4) = [0.6; 0.1; 0.6];
+T_ee(1:3, 1:3) = eye(3); % this sets the rotation component of the end-effector
+T_ee(1:3, 4) = [0.6; 0.1; 0.6]; % this sets the position component of the end-effector
 [ik_sols] = ur5_kin.inverse_kinematics(T_ee, 0); % computes the IK solutions to reach end-effector configuration T_ee
 
 ur5_disp.draw_configuration(ik_sols(2, :)); % visualize one of the solutions
