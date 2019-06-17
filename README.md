@@ -38,9 +38,9 @@ https://github.com/ros-industrial/universal_robot/tree/kinetic-devel/ur_kinemati
 
 **Pradeep Rajendran**
 
-* [github/pradeepunique1989](https://github.com/pradeepunique1989)
+* [github/pradeepr-roboticist](https://github.com/pradeepr-roboticist)
 
 ## License
 
-Copyright © 2019 [Pradeep Rajendran](https://github.com/pradeepunique1989)
-Released under the [GNU General Public License](https://github.com/pradeepunique1989/UR5Robot/blob/master/LICENSE).
+Copyright © 2019 [Pradeep Rajendran](https://github.com/pradeepr-roboticist)
+Released under the [GNU General Public License](https://github.com/pradeepr-roboticist/UR5Robot-MEX-Matlab/blob/master/LICENSE).
